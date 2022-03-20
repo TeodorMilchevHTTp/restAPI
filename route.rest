@@ -1,0 +1,30 @@
+GET http://localhost:3000/
+
+###
+
+GET http://localhost:3000/posts
+
+###
+
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "artist": "King Von",
+    "label": "OTF",
+    "album": "Welcome To O'Block",
+    "song": "Mine Too"
+}
+
+###
+
+DELETE http://localhost:3000/posts
+
+###
+
+PATCH http://localhost:3000/posts/6235eb0f4b267fe410c30808
+Content-Type: application/json
+
+{
+    "song": "this is a test"
+}
