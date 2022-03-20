@@ -9,5 +9,5 @@
 ##To view the actual DataBase interface
 >Download MongoDB Compass and
 >give it the connection String that u can copy from the .env file
->Vew "myFirstDataBase"
+>then Vew "myFirstDataBase"
 
